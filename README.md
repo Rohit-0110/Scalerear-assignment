@@ -25,7 +25,14 @@ $ mkdir nginx
 $ vim nginx/nginx.conf
 
 ### Building 
-$ sudo docker build -t myapp .
+$ sudo docker build -t myapp4 .
+
+###Check build image 
+$ sudo docker images
+
+$ sudo docker run --name work myapp4
+
+$ sudo docker ps
 
 ### Container-2
 
