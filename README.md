@@ -13,7 +13,9 @@ $ npm run build
 
 ### Create Dockerfile
 $ vim dockerfile
+
 $ mkdir nginx
+
 $ vim nginx/nginx.conf
 
 ### Building 
