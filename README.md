@@ -3,12 +3,14 @@
 
 ### Install nodejs and npm
 $ sudo apt update
+
 $ sudo apt install nodejs
 
 ### Create React App
 $ npx create-react-app app
 
 $ cd app
+
 $ npm run build
 
 ### Create Dockerfile
