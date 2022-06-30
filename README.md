@@ -40,6 +40,7 @@ $ sudo docker ps
 $ sudo docker run --name work2 -p 8081:80 ubuntu
 
 Interact with container 
+
 $ sudo docker exec -it <container_id> bash
 
 ### setting up nginx in Ubuntu Container
