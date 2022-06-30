@@ -27,7 +27,7 @@ $ vim nginx/nginx.conf
 ### Building 
 $ sudo docker build -t myapp4 .
 
-###Check build image 
+### Check build image 
 $ sudo docker images
 
 $ sudo docker run --name work myapp4
@@ -39,7 +39,7 @@ $ sudo docker ps
 ### Running Ubuntu Container
 $ sudo docker run --name work2 -p 8081:80 ubuntu
 
-####Interact with container 
+Interact with container 
 $ sudo docker exec -it <container_id> bash
 
 ### setting up nginx in Ubuntu Container
