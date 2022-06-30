@@ -2,6 +2,9 @@
 ### Container-1
 
 ### Install nodejs and npm
+
+curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
+
 $ sudo apt update
 
 $ sudo apt install nodejs
@@ -30,6 +33,7 @@ $ sudo docker run --name work2 -p 8081:80 ubuntu
 
 ### setting up nginx in Ubuntu Container
 $ sudo apt-get update
+
 $ sudo apt install nginx
 
 ### Configuring Nginx for reverse proxy
